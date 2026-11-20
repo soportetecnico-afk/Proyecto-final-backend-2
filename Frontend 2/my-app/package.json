@@ -10,7 +10,7 @@
     "prepare": "svelte-kit sync || echo ''",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
-    "start": "node build"
+    "start": "node build/index.js"
 },
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
