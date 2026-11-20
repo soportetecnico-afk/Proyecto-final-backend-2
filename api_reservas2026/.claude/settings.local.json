@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\schema.py\")",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; python \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\schema.py\")",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\schema.py\")",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\check_models.py\")",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\meta.py\")",
+      "PowerShell(& C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe -m pip install httpx --quiet; $env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\check_api.py\")",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\dump_routes.py\")",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\dump_routes.py\" 2>$null)",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\check_fixes.py\" 2>$null)",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\check_sql.py\" 2>$null)",
+      "PowerShell($env:PYTHONPATH = \"C:\\\\api_reservas2026\"; $env:PYTHONIOENCODING = \"utf-8\"; & C:\\\\api_reservas2026\\\\myvenv\\\\Scripts\\\\python.exe \"C:\\\\Users\\\\Shirl\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--api-reservas2026\\\\fc0aa664-8a45-4a24-bb28-7fd648a97065\\\\scratchpad\\\\check_utf8.py\" 2>$null)"
+    ]
+  }
+}
