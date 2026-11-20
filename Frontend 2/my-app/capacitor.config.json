@@ -1,0 +1,12 @@
+{
+	"appId": "edu.cul.reservas",
+	"appName": "Sistema de Reservas CUL",
+	"webDir": "build",
+	"server": {
+		"androidScheme": "https",
+		"cleartext": true
+	},
+	"android": {
+		"allowMixedContent": true
+	}
+}
